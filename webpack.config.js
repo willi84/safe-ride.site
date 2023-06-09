@@ -29,6 +29,11 @@ plugins.push(new WebpackShellPluginNext({
   onBuildEnd: {
     // scripts: ['ls'],
     scripts: [
+      'rm -rf public/',
+      'mkdir public',
+      'cp -r src/app/dashboard/static/* public/',
+      'cp dist/index.js public/',
+      'ls -al public/'
       // 'npm run optimize:inline'
     ],
     // scripts: ['npm run copy:html && npm run optimize:inline'],

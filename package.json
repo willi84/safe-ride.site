@@ -4,6 +4,7 @@
   "description": "make rides safer",
   "main": ".eslintrc.js",
   "scripts": {
+    "build": "npm run deploy",
     "webpack": "webpack",
     "deploy": "npm run webpack",
     "before": "npm install",
