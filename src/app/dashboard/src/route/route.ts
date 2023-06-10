@@ -76,7 +76,7 @@ export const displayRoute = (result, streets, UNFAELLE) => {
               ${CIRCLE}
                 <details>
                   <summary>${headline}  (${step.distance}m)</summary>
-                  <table>
+                  <table class="cats">
                     <tr>
                     <td>${numAccidents} x accidents (2021)</td>
                         <td>
