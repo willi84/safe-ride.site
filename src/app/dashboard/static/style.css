@@ -92,3 +92,10 @@ ul.categories li small{
     line-height: 8px;
     word-break: break-all;
 }
+
+.form-control{
+    font-size: 3rem;
+}
+#search{
+    font-size: 2rem;
+}

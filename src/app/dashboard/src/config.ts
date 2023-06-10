@@ -13,3 +13,4 @@ export const SVG = {
   'Betonplatten': 'icons/betonplatten_pflaster.svg',
   'Wassergebundene Decke': 'icons/wassergebunden.svg'
 }
+export const ID = 'c7334b3b83f228847814fc1f';

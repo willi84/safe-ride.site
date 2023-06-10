@@ -24,10 +24,7 @@ const getCategoryList = (items: Array<string>) => {
 export const displayRoute = (result, streets, UNFAELLE) => {
     const main = document.querySelector('#result');
     const route = result.features[0].properties.segments[0];
-    // console.log(route);
-    // console.log(result.features[0]);
     const coordinates = result.features[0].geometry.coordinates;
-    // console.log(coordinates);
     const steps = route.steps;
     const STREETS = Object.keys(streets);
     let listHTML = '';
@@ -42,19 +39,14 @@ export const displayRoute = (result, streets, UNFAELLE) => {
             const newLat = reduceFloat((pair[1]).toString(), MAX_FLOAT_DECIMAL);
             return [newLong, newLat]
         })
-        // console.log('coordinatesOpt')
-        // console.log(coordinatesOpt)
         const relevantCoors = coordinatesOpt.filter((item: any, index: number) => index >= min && index <= max)
-        // console.log(relevantCoors)
         relevantCoors.forEach((element: Array<number>, index: number) => {
-               
                 const unfaelle = (UNFAELLE.unfaelle).map((item: any) => item[0])
                 unfaelle.forEach(unfall => {
                     if(unfall[0] === element[0] && unfall[1] === element[1]){
                         found.push(element);
 
                     }
-                    
                 });
 
         });
@@ -67,9 +59,7 @@ export const displayRoute = (result, streets, UNFAELLE) => {
 
         const streetData = streets[street].categories;
         const listCategories = getCategoryList(streetData);
-        // console.log(streetData)
         if (headline !== '') {
-            // accidents_3.svg
             const numAccidents = FOUND_ACCIDENTS.length;
             let level = 0;
             if(numAccidents >= 1 && numAccidents <= 5){
