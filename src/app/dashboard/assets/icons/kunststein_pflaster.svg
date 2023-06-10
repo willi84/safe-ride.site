@@ -1,0 +1,58 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" fill="#393636"/>
+<rect x="9" y="2" width="5" height="5" fill="#C07A49"/>
+<rect x="16" y="2" width="5" height="5" fill="#C07A49"/>
+<rect x="23" y="2" width="5" height="5" fill="#C07A49"/>
+<rect x="30" y="2" width="5" height="5" fill="#C07A49"/>
+<rect x="37" y="2" width="5" height="5" fill="#C07A49"/>
+<rect x="44" y="2" width="5" height="5" fill="#C07A49"/>
+<rect x="9" y="9" width="5" height="5" fill="#C07A49"/>
+<rect x="16" y="9" width="5" height="5" fill="#C07A49"/>
+<rect x="23" y="9" width="5" height="5" fill="#C07A49"/>
+<rect x="30" y="9" width="5" height="5" fill="#C07A49"/>
+<rect x="37" y="9" width="5" height="5" fill="#C07A49"/>
+<rect x="44" y="9" width="5" height="5" fill="#C07A49"/>
+<rect x="9" y="16" width="5" height="5" fill="#C07A49"/>
+<rect x="16" y="16" width="5" height="5" fill="#C07A49"/>
+<rect x="23" y="16" width="5" height="5" fill="#C07A49"/>
+<rect x="30" y="16" width="5" height="5" fill="#C07A49"/>
+<rect x="37" y="16" width="5" height="5" fill="#C07A49"/>
+<rect x="44" y="16" width="5" height="5" fill="#C07A49"/>
+<rect x="9" y="23" width="5" height="5" fill="#C07A49"/>
+<rect x="16" y="23" width="5" height="5" fill="#C07A49"/>
+<rect x="23" y="23" width="5" height="5" fill="#C07A49"/>
+<rect x="30" y="23" width="5" height="5" fill="#C07A49"/>
+<rect x="37" y="23" width="5" height="5" fill="#C07A49"/>
+<rect x="44" y="23" width="5" height="5" fill="#C07A49"/>
+<rect x="9" y="30" width="5" height="5" fill="#C07A49"/>
+<rect x="16" y="30" width="5" height="5" fill="#C07A49"/>
+<rect x="23" y="30" width="5" height="5" fill="#C07A49"/>
+<rect x="30" y="30" width="5" height="5" fill="#C07A49"/>
+<rect x="37" y="30" width="5" height="5" fill="#C07A49"/>
+<rect x="44" y="30" width="5" height="5" fill="#C07A49"/>
+<rect x="9" y="37" width="5" height="5" fill="#C07A49"/>
+<rect x="16" y="37" width="5" height="5" fill="#C07A49"/>
+<rect x="23" y="37" width="5" height="5" fill="#C07A49"/>
+<rect x="30" y="37" width="5" height="5" fill="#C07A49"/>
+<rect x="37" y="37" width="5" height="5" fill="#C07A49"/>
+<rect x="44" y="37" width="5" height="5" fill="#C07A49"/>
+<rect x="9" y="44" width="5" height="5" fill="#C07A49"/>
+<rect x="16" y="44" width="5" height="5" fill="#C07A49"/>
+<rect x="23" y="44" width="5" height="5" fill="#C07A49"/>
+<rect x="30" y="44" width="5" height="5" fill="#C07A49"/>
+<rect x="37" y="44" width="5" height="5" fill="#C07A49"/>
+<rect x="44" y="44" width="5" height="5" fill="#C07A49"/>
+<rect x="2" y="2" width="5" height="5" fill="#C07A49"/>
+<rect x="2" y="9" width="5" height="5" fill="#C07A49"/>
+<rect x="2" y="16" width="5" height="5" fill="#C07A49"/>
+<rect x="2" y="23" width="5" height="5" fill="#C07A49"/>
+<rect x="2" y="30" width="5" height="5" fill="#C07A49"/>
+<rect x="2" y="37" width="5" height="5" fill="#C07A49"/>
+<rect x="2" y="44" width="5" height="5" fill="#C07A49"/>
+<line x1="8.5" y1="5" x2="8.5" y2="45" stroke="white" stroke-width="3"/>
+<line x1="24.5" y1="29" x2="24.5" y2="44" stroke="white" stroke-width="3"/>
+<line x1="24.5" y1="5" x2="24.5" y2="20" stroke="white" stroke-width="3"/>
+<line x1="41.5" y1="5" x2="41.5" y2="45" stroke="white" stroke-width="3"/>
+<rect x="28" y="28" width="20" height="20" fill="#FFA41C"/>
+<path d="M32.7614 46V31.4545H37.8466C38.8598 31.4545 39.6955 31.6297 40.3537 31.9801C41.0118 32.3258 41.5019 32.7921 41.8239 33.3793C42.1458 33.9616 42.3068 34.608 42.3068 35.3182C42.3068 35.9432 42.1955 36.4593 41.973 36.8665C41.7552 37.2737 41.4664 37.5956 41.1065 37.8324C40.7514 38.0691 40.3655 38.2443 39.9489 38.358V38.5C40.3939 38.5284 40.8414 38.6847 41.2912 38.9688C41.741 39.2528 42.1174 39.66 42.4205 40.1903C42.7235 40.7206 42.875 41.3693 42.875 42.1364C42.875 42.8655 42.7093 43.5213 42.3778 44.1037C42.0464 44.6861 41.5232 45.1477 40.8082 45.4886C40.0933 45.8295 39.1629 46 38.017 46H32.7614ZM34.5227 44.4375H38.017C39.1676 44.4375 39.9844 44.215 40.4673 43.7699C40.955 43.3201 41.1989 42.7756 41.1989 42.1364C41.1989 41.6439 41.0734 41.1894 40.8224 40.7727C40.5715 40.3513 40.214 40.0152 39.75 39.7642C39.286 39.5085 38.7367 39.3807 38.1023 39.3807H34.5227V44.4375ZM34.5227 37.8466H37.7898C38.3201 37.8466 38.7983 37.7424 39.2244 37.5341C39.6553 37.3258 39.9962 37.0322 40.2472 36.6534C40.5028 36.2746 40.6307 35.8295 40.6307 35.3182C40.6307 34.679 40.4081 34.1368 39.9631 33.6918C39.518 33.242 38.8125 33.017 37.8466 33.017H34.5227V37.8466Z" fill="white"/>
+</svg>

@@ -1,2 +1,94 @@
 /* @import 'css/checkbox.css'; */
 
+/* li:before{
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    background-color: var(--string-color);
+    /* left: -1.6rem; */
+    /*top: 0rem;
+    bottom: -5rem;
+    width: 1.6rem;
+    transition: background-color .1s ease;
+} */
+/* details{
+    display: inline-block;
+} */
+main{
+    margin-left: 20px;
+}
+
+main .station__marker{
+    margin-left: -15px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    /* top: 20px; */
+    top: 40px;
+}
+/* li:before{
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 250px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 100px;
+} */
+li.street {
+    border-left: 10px solid red;
+    list-style-type: none;
+    border-top: .1rem solid #d2d2d1;
+    /* height: 100px; */
+}
+li.street:hover{
+    background-color: lightblue;
+}
+:root {
+    font-size: 10px;
+    --string-color: #be1414;
+}
+/* details{
+    height: 50px;
+} */
+ p {
+    margin: 0;
+    padding-left: 3rem;
+}
+
+summary{
+    font-size: 2rem;
+    line-height: 3.2rem;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    position: relative;
+    font-weight: 700;
+    padding: 1.5rem 4rem 1.5rem 3rem;
+    cursor: pointer;
+    transition: background-color .35s ease;
+    list-style: none;
+}
+
+.station__marker-dot{
+    opacity: 0;
+}
+ul.categories {
+    list-style-type: none;
+}
+
+ul.categories li{
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+
+ul.categories li small{
+    font-size: 6px;
+    line-height: 8px;
+    word-break: break-all;
+}

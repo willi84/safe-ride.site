@@ -110,6 +110,7 @@ module.exports = {
     static: [
       {directory: path.join(__dirname, 'src/app/dashboard/static/')},
       {directory: path.join(__dirname, 'src/app/dashboard/assets/')},
+      // {directory: path.join(__dirname, 'src/app/dashboard/assets/icons/')},
     ],
     compress: true,
     port: 4200,
