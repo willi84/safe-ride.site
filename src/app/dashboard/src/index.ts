@@ -35,13 +35,17 @@ submitButton.addEventListener('click', (event) => {
   (async () => {
     
     // do sth
-    startCoords = await getCoordinates(start);
-    endCoords = await getCoordinates(end);
-    console.log('startCoords');
-    console.log(startCoords);
-    console.log(endCoords);
-    const real = `https://api.openrouteservice.org/v2/directions/cycling-road?api_key=${API_KEY}${ID}&start=${startCoords.join(',')}&end=${endCoords.join(',')}`;
-    // return 'ok';
+    let real = '';
+    if(isRealata){
+      startCoords = await getCoordinates(start);
+      endCoords = await getCoordinates(end);
+      console.log('startCoords');
+      console.log(startCoords);
+      console.log(endCoords);
+      real = `https://api.openrouteservice.org/v2/directions/cycling-road?api_key=${API_KEY}${ID}&start=${startCoords.join(',')}&end=${endCoords.join(',')}`;
+      // return 'ok';
+
+    }
     console.log(real);
     const route = isRealata ? `${real}` : ROUTE_URL;
     fetch(route)
