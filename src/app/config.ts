@@ -1,0 +1,1 @@
+export const MAX_FLOAT_DECIMAL = 3;

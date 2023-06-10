@@ -32,6 +32,7 @@ plugins.push(new WebpackShellPluginNext({
       'rm -rf public/',
       'mkdir public',
       'cp -r src/app/dashboard/static/* public/',
+      'cp -r src/app/dashboard/assets/* public/',
       'cp dist/index.js public/',
       'ls -al public/'
       // 'npm run optimize:inline'
